@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: calc(15px + 0.1vw);
+  font-family: "Roboto", sans-serif;
+  /* font-family: "PT Serif", serif; */
+}
+
+.service-icon {
+  margin: 0 auto;
+  color: #002d62;
+  font-size: 2.5rem;
+}
+
+.box-shadow {
+  box-shadow: inset 0px 0px 18px 0px #e8e8e8;
+}
+
+/* contact page */
+.contact-icon {
+  font-size: 2rem;
+}
+
+.form {
+  padding: 20px 20px 0px 0;
+  max-width: 380px;
+}
+
+/* header */
+.menu-icon {
+  color: #002d62;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+/* navList */
+.active {
+  text-decoration: underline;
+  color: darkBlue;
+  text-underline-offset: 8px;
+}
+
+/* media query */
+@media only screen and (min-width: 700px) {
+  .bgImage {
+    width: 700px;
+    right: 0;
+    margin: 0 auto;
+  }
+}
