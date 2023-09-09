@@ -30,7 +30,7 @@ export const Home = () => {
           <Text pb="10px" color="gray" w="100%" h="auto" maxWidth="80%">
             Kimmann Hydrauliek Service is hét bedrijf voor het adequaat oplossen
             van hydraulische storingen. De service kent geen grenzen! Er wordt
-            gewerkt op land zee en internationaal.
+            gewerkt op land, zee en internationaal.
           </Text>
           <Link to={"/contact"}>
             <Button bgColor="#002d62" color="white" fontWeight="normal">

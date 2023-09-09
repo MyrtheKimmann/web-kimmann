@@ -8,7 +8,7 @@ export const InfoBox = () => {
   return (
     <>
       <Box
-        p="40px"
+        p="50px"
         alignSelf="center"
         display="flex"
         flexDirection="column"
@@ -16,7 +16,7 @@ export const InfoBox = () => {
         color="white"
         bgColor="#002d62"
         maxWidth="350px"
-        mt={{ base: "80px", md: "initial" }}
+        mt={{ base: "50px", md: "initial" }}
       >
         <Box display="flex" gap="40px" alignItems="center">
           <BsTelephone className="contact-icon" />

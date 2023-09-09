@@ -1,4 +1,4 @@
-import { Box, Text, Heading } from "@chakra-ui/react";
+import { Box, Text, Heading, Image } from "@chakra-ui/react";
 // ui
 import { Seperator } from "../ui/Seperator";
 // components
@@ -13,17 +13,16 @@ export const Contact = () => {
         justifyContent="center"
         bgColor="white"
         gap="3%"
-        p="150px 20px 200px"
+        p="150px 20px 0"
       >
         <Box>
           <Heading fontSize="1.7rem" pb="10px" color="#002d62">
             Contact
           </Heading>
           <Seperator />
-
-          <Text color="gray" p="10px 0" maxWidth="450px">
-            Bel het onderstaande nummer voor het verhelpen van hydraulische
-            storingen. Voor andere vragen neem ook gerust contact op!
+          <Text color="gray" p="10px 0" maxWidth="400px">
+            Bel het nummer voor het verhelpen van hydraulische storingen. Voor
+            andere vragen neem ook gerust contact op!
           </Text>
           {/* <Form /> */}
         </Box>

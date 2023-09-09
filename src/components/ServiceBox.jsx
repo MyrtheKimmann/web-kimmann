@@ -38,7 +38,7 @@ export const ServiceBox = () => {
           icon={<MdArrowOutward className="service-icon" />}
           heading={"Optimaliseren"}
           text={
-            "Systemen die al wat langer draaien met verouderde technieken kunnen vaak vrij simpel worden aangepast, waardoor een hoger rendement haalbaar is. De kosten voor de aanpassingen zijn vaak snel terugverdient."
+            "Systemen die al wat langer draaien met verouderde technieken kunnen vaak vrij simpel worden aangepast, waardoor een hoger rendement haalbaar is. De kosten voor de aanpassingen zijn vaak snel terugverdiend."
           }
         />
 
@@ -46,7 +46,7 @@ export const ServiceBox = () => {
           icon={<GiMagnifyingGlass className="service-icon" />}
           heading={"Onderhoud & inspectie"}
           text={
-            "Bij adequaat onderhoud kan vaak stilstand worden voorkomen. Inspectie ter plaatse brengt meestal een beter inzicht wat de actuele systeemconditie betreft"
+            "Bij adequaat onderhoud kan vaak stilstand worden voorkomen. Inspectie ter plaatse brengt meestal een beter inzicht wat de actuele systeemconditie betreft."
           }
         />
 
@@ -54,7 +54,7 @@ export const ServiceBox = () => {
           icon={<TbNotes className="service-icon" />}
           heading={"Testen"}
           text={
-            "Het testen van systemen wordt uitgevoerd met speciale meet-gereedschappen, waarmee systeemcondities zichtbaar worden gemaakt"
+            "Het testen van systemen wordt uitgevoerd met speciale meet-gereedschappen, waarmee systeemcondities zichtbaar worden gemaakt."
           }
         />
       </Box>
