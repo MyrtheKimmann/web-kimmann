@@ -33,7 +33,12 @@ export const Home = () => {
             gewerkt op land, zee en internationaal.
           </Text>
           <Link to={"/contact"}>
-            <Button bgColor="#002d62" color="white" fontWeight="normal">
+            <Button
+              bgColor="#002d62"
+              color="white"
+              fontWeight="normal"
+              cursor="pointer"
+            >
               Contact
             </Button>
           </Link>

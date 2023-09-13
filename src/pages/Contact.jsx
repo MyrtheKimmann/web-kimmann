@@ -1,4 +1,4 @@
-import { Box, Text, Heading, Image } from "@chakra-ui/react";
+import { Box, Text, Heading } from "@chakra-ui/react";
 // ui
 import { Seperator } from "../ui/Seperator";
 // components

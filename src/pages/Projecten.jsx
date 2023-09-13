@@ -33,6 +33,7 @@ export const Projecten = () => {
                 h="500px"
                 boxShadow="lg"
                 color="#002d62"
+                cursor="pointer"
               >
                 <Image src={project.image} objectFit="cover" mb="20px" />
                 <Box textAlign="center">

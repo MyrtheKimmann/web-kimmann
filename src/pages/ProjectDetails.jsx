@@ -1,11 +1,23 @@
-import { Text, Box, Image, Heading, Button } from "@chakra-ui/react";
+import { Text, Box, Image, Heading } from "@chakra-ui/react";
 import { useLocation, Link } from "react-router-dom";
+import { IoIosArrowRoundBack } from "react-icons/io";
+import "../index.css";
 
 export const ProjectDetails = () => {
   const { state } = useLocation();
   return (
     <>
       <Box p="100px 20px 100px" m="0 auto">
+        <Box textAlign="left" p="0 0 20px 5px">
+          <Link to="/projecten" className="linkProjects">
+            <Box display="flex" flexDirection="row">
+              <IoIosArrowRoundBack className="alignIcon" />
+              <Text color="gray" fontWeight="normal">
+                Terug naar alle projecten
+              </Text>
+            </Box>
+          </Link>
+        </Box>
         <Box display={{ md: "flex" }} justifyContent="center" gap="5%">
           <Box maxWidth="100%">
             {state.project.detailsImages.map((image) => (
@@ -28,19 +40,6 @@ export const ProjectDetails = () => {
             </Heading>
             <Text color="gray">{state.project.text}</Text>{" "}
           </Box>
-        </Box>
-
-        <Box textAlign="center">
-          <Link to="/projecten">
-            <Button
-              bgColor="#002d62"
-              color="white"
-              fontWeight="normal"
-              mt="50px"
-            >
-              Terug naar alle projecten
-            </Button>
-          </Link>
         </Box>
       </Box>
     </>

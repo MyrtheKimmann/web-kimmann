@@ -30,7 +30,7 @@ export const ServiceBox = () => {
           icon={<VscTools className="service-icon" />}
           heading={"Storingen verhelpen"}
           text={
-            "Gaat vaak samen met het achterhalen van de oorzaak die dieper ligt, hiermee kan vaak een systeem beter en meer betrouwbaar worden gemaakt."
+            "Gaat samen met het achterhalen van de oorzaak die vaak dieper ligt, hiermee kan een systeem beter en meer betrouwbaar worden gemaakt."
           }
         />
 
@@ -38,7 +38,7 @@ export const ServiceBox = () => {
           icon={<MdArrowOutward className="service-icon" />}
           heading={"Optimaliseren"}
           text={
-            "Systemen die al wat langer draaien met verouderde technieken kunnen vaak vrij simpel worden aangepast, waardoor een hoger rendement haalbaar is. De kosten voor de aanpassingen zijn vaak snel terugverdiend."
+            "Systemen die al wat langer draaien met verouderde technieken kunnen vrij simpel worden aangepast, waardoor een hoger rendement haalbaar is. De kosten voor de aanpassingen zijn snel terugverdiend."
           }
         />
 
@@ -46,7 +46,7 @@ export const ServiceBox = () => {
           icon={<GiMagnifyingGlass className="service-icon" />}
           heading={"Onderhoud & inspectie"}
           text={
-            "Bij adequaat onderhoud kan vaak stilstand worden voorkomen. Inspectie ter plaatse brengt meestal een beter inzicht wat de actuele systeemconditie betreft."
+            "Bij adequaat onderhoud kan stilstand worden voorkomen. Inspectie ter plaatse brengt een beter inzicht wat de actuele systeemconditie betreft."
           }
         />
 

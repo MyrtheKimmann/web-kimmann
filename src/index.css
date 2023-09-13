@@ -28,6 +28,16 @@
   max-width: 380px;
 }
 
+/* projects */
+.linkProjects {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.alignIcon {
+  align-self: center;
+}
+
 /* header */
 .menu-icon {
   color: #002d62;
